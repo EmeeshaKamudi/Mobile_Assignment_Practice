@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#EDE7F6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment A"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the first fragment.&#10;Tap the button to navigate to Fragment B."
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnGoToFragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Go to Fragment B →"
+        android:textSize="16sp"
+        android:backgroundTint="#6A1B9A" />
+
+</LinearLayout>

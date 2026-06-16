@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#E65100"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the second fragment.&#10;Tap the button to return to Fragment A."
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnGoToFragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="← Go Back to Fragment A"
+        android:textSize="16sp"
+        android:backgroundTint="#E65100" />
+
+</LinearLayout>
